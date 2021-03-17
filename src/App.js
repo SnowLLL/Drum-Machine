@@ -6,11 +6,6 @@ import {audios} from './constants'
 
 const App = () => {
 
-    const [state, setstate] = React.useState({
-        id: '',
-        url: '',
-    });
-
     const [status, setStatus] = React.useState({
         power: '',
         bank: ''
@@ -20,11 +15,6 @@ const App = () => {
     const [vol, setVol] = React.useState(0.5)
 
     const regClick = (event) => {
-        setstate({
-            id: audios[event.target.value].name,
-            url: audios[event.target.value].url,
-        })
-        // cannot use state.url because it played url that you saved lt last time
         let audio = new Audio(audios[event.target.value].url)
         audio.play()
         audio.volume = vol;
@@ -32,10 +22,6 @@ const App = () => {
     }
 
     const bankClick = (event) => {
-        setstate({
-            id: audiosBank[event.target.value].name,
-            url: audiosBank[event.target.value].url,
-        })
         let audio = new Audio(audiosBank[event.target.value].url)
         audio.play()
         audio.volume = vol;
