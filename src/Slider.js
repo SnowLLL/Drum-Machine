@@ -53,7 +53,6 @@ const InputSlider = (props) => {
         <Grid item xs>
           <Slider
             value={typeof value === 'number' ? value : 0}
-            value ={value}
             min = {0}
             max = {1}
             step = {0.1}
