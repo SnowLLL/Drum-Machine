@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #a7a8bd;
+}
+
+.square {
+  height: 100vh;
+}
+
+.drumChart {
+  background-color: #f8d86a;
+  padding: 2.5rem;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  background-color: #74759b;
+  color: #fffef8;
+  margin: 1px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-color: wheat;
+}
+
+.buttonGroup div {
+  margin: 2px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin: 1rem;
+}
