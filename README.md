@@ -25,6 +25,7 @@
   - To turn on/turn off machine
   - To adjust music volume
   - To change different styles of sounds
-  - ![GitHub Logo](/images/0.png)
 ```
+  - ![GitHub Logo](/images/0.png)
+
 
